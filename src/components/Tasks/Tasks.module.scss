@@ -1,0 +1,59 @@
+.wrapper {
+    width: 1050px;
+    margin: 0 auto;
+    font-family: "Inter";
+}
+
+input[type=text] {
+    width: 1000px;
+    background: #EEEEEE;
+    border: none;
+    height: 48px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-family: "Inter";
+    font-size: 16px;
+    padding-left: 50px;
+}
+
+.search {
+    position: relative;
+    display: flex;
+    #search {
+        position: absolute;
+        top: 35px;
+        left: 15px;
+    }
+}
+
+.sort {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    #sort {
+        color: #878B8E;
+        margin: 0;
+        padding: 0;
+    }
+    #sortCategory {
+        margin-left: 5px;
+        padding: 0;
+        
+    }
+    img {
+        height: 8px;
+        display: flex;
+        margin-top: 7px;
+        margin-left: 5px;
+        padding: 0;
+    }
+}
+
+.tasks {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px auto;
+}

@@ -1,0 +1,77 @@
+.wrapper {
+    width: 1050px;
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.addtask {
+    margin-top: 20px;
+    background: #F9F9F9;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: (0px 4px 18px rgba(0, 0, 0, 0.1));
+    h2 {
+        text-align: center;
+    }
+
+    span {
+        display: flex;
+    }
+    #title {
+        padding: 0;
+        padding-left: 5px;
+        margin-left: 15px;
+        width: 1006px;
+        outline: none;
+    }
+
+    #reward {
+        padding: 0;
+        padding-left: 5px;
+        margin: 0 0 0 15px;
+        width: 825px;
+        outline: none;
+    }
+    
+    #date {
+        height: 38px;
+        width: 156px;
+        margin-left: 15px;
+        background: #EEEEEE;
+        border-radius: 5px;
+        outline: none;
+        border: none;
+        padding: 5px;
+    }
+
+    textarea {
+        padding: 5px;
+        font-family: "Inter";
+        font-size: 16px;
+        resize: none;
+        border-radius: 5px;
+        width: 1000px;
+        margin: 15px;
+        min-height: 100px;
+        outline: none;
+        background: #EEEEEE;
+        border-color: #EEEEEE;
+    }
+
+    button {
+        cursor: pointer;
+        background: #3A84F7;
+        width: 150px;
+        border: none;
+        color: white;
+        border-radius: 5px;
+        padding: 8px;
+        margin: 25px auto 15px;
+        font-family: "Inter";
+        font-size: 15px;
+    }
+}
